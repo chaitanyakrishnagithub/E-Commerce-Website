@@ -1,2 +1,2 @@
 # E-Commerce-Website
-Viewing different products of the website and purchasing them
+It is the virtual space where you showcase products, and online customers make selections.
