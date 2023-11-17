@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!-- icon -->
+
+    <!-- Google fonts End -->
+
+    <!-- custon style Sheet & JavaScript -->
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <script src="js/index.js" defer></script>
+    <script src="js/shop.js" defer></script>
+    <!-- custon style Sheet & JavaScript -->
+    <title>TechBazaar</title>
+  </head>
+  <body class="home">
+    <header class="primary-header container flex">
+      <div class="header-inner-one flex">
+        <div class="logo">
+          <img src="/image/techlogo.jpg" alt="" />
+        </div>
+        <nav>
+          <ul
+            id="primary-navigation"
+            data-visible="false"
+            class="primary-navigation flex"
+          >
+            <li>
+              <a class="fs-100 fs montserrat bold-500" href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a class="active fs-100 fs montserrat bold-500" href="/about.html"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a class="fs-100 fs montserrat bold-500" href="/contactus.html"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header-login flex">
+        <!-- <p class="fs-100 fs-montserrat bold-500">login</p> -->
+        <i class="uil uil-search"></i>
+        <i
+          id="cart-box"
+          aria-controls="cart-icon"
+          class="uil uil-shopping-bag"
+        ></i>
+
+        <!-- Cart Box start-->
+        <div id="cart-icon" data-visible="false" class="cart-icon">
+          <div class="shopping flex">
+            <p>Shopping Basket</p>
+            <i id="cross-btn" class="uil uil-times"></i>
+          </div>
+          <div class="cart bold-800 flex">
+            <i class="uil uil-shopping-cart-alt"></i>
+            <p>Cart Is Empty</p>
+          </div>
+        </div>
+        <!-- Cart Box end -->
+      </div>
+    </header>
+    <!-- Header Section Ends -->
+
+    <section class="about-section grid">
+      <div>
+        <img src="/image/about-us.png" alt="" />
+      </div>
+      <div class="about-info">
+        <h3 class="fs-poppins fs-100 text-red">Welcome To Digital Commerce</h3>
+        <h1 class="fs-montserrat fs-300 text-black">About Us</h1>
+        <p class="fs-montserrat fs-100">
+          At TechBazaar, we are passionate about technology and its power to
+          enhance and simplify lives. As avid tech enthusiasts, we founded our
+          company with a mission to provide cutting-edge solutions and
+          innovative products that empower you to navigate the digital world
+          seamlessly. Your satisfaction is our priority. Tired of shifting
+          through countless options? We've done the work for you. Our curated
+          selection features the latest and greatest in tech, handpicked to
+          cater to your diverse needs.<br /><br />
+
+          We strive to go beyond being just a tech store; we aim to be your
+          trusted tech partner. If you're not happy, neither are we.Stay ahead
+          in the ever-evolving tech landscape with our carefully selected range
+          of products. From the latest gadgets to time-tested essentials, we've
+          got you covered. Whether you're a seasoned tech pro or just getting
+          started, TechBazaar welcomes you to join us on this exciting tech
+          journey. Explore our online store, stay updated with our blog, and
+          connect with us on social media. Together, let's embrace the future of
+          technology! <br /><br />
+
+          Thank you for choosing TechBazaar—where technology meets innovation,
+          and your satisfaction is our success.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
