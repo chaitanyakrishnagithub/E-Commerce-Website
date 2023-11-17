@@ -1,0 +1,27 @@
+.about-section {
+  width: 90vw;
+  grid-auto-columns: 1fr;
+  align-items: center;
+  --grid-gap: 3rem;
+  margin-inline: auto;
+  margin-block: 4rem;
+  grid-template-areas: "one two";
+}
+.about-section:nth-child(1) {
+  grid-area: one;
+}
+.about-section:nth-child(2) {
+  grid-area: two;
+}
+.about-section > * img {
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+.about-info {
+  padding-inline: 0.5rem;
+  display: grid;
+  place-content: center;
+}
+.about-info p {
+  line-height: 1.8rem;
+}

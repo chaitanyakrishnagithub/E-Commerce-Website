@@ -1,0 +1,76 @@
+.contact-us {
+  width: 95vw;
+  margin-inline: auto;
+  align-items: center;
+  --grid-gap: 4rem;
+  margin-block: 3rem;
+  grid-auto-columns: 1fr;
+  grid-template-areas: "one two";
+}
+
+.contact-us:nthchild(1) {
+  grid-area: one;
+}
+.contact-us:nthchild(2) {
+  grid-area: two;
+}
+.contact-form {
+  margin-block: 2rem;
+  --grid-gap: 2rem;
+}
+.contact-us input {
+  border: 0;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+}
+.contact-us input-focus {
+  outline: none;
+}
+.contact-us textarea {
+  width: 100%;
+  border: 0;
+  border-radius: 2rem;
+}
+.contact-us textarea:focus {
+  outline: none;
+}
+.contact-btn > button {
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+.support-container {
+  width: 95vw;
+  margin-inline: auto;
+  margin-bottom: 7rem;
+  place-items: center;
+  --grid-gap: 3rem;
+  grid-auto-columns: 1fr;
+  grid-template-areas: "one two three";
+}
+.support-container:nth-child(1) {
+  grid-area: one;
+}
+.support-container:nth-child(2) {
+  grid-area: two;
+}
+.support-container:nth-child(3) {
+  grid-area: three;
+}
+.support-info {
+  --grid-gap: 1rem;
+  place-items: center;
+}
+.support-img {
+  place-items: center;
+}
+.support-info > p,
+.support-info span {
+  font-size: 1rem;
+}
+#success-message {
+  display: none;
+  margin-top: 10px;
+  color: green;
+  font-size: 2rem;
+}
